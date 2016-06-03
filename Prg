@@ -1,0 +1,25 @@
+package com.orilore.why.test2;
+
+public class RPG {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		demoSwordsMan();
+		demoMagician();
+	}
+	static void demoSwordsMan(){
+		SwordsMan s=new SwordsMan();
+		s.setName("Justin");
+		s.setLevel(1);
+		s.setBlood(200);
+		System.out.printf("½£Ê¿:(%s,%d,%d)%n",s.getName(),s.getLevel(),s.getBlood());
+	}
+
+	static void demoMagician(){
+		Magician m=new Magician();
+		m.setName("Monica");
+		m.setLevel(1);
+		m.setBlood(100);
+		System.out.printf("Ä§·¨Ê¦:(%s,%d,%d)%n",m.getName(),m.getLevel(),m.getBlood());
+	}
+}
